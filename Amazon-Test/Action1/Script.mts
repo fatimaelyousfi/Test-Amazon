@@ -4,5 +4,4 @@ print "Connexion Amazon"
 Browser("Amazon.fr : livres, DVD,").Page("Amazon.fr : livres, DVD,").WebEdit("field-keywords").Set "canapé"
 Browser("Amazon.fr : livres, DVD,").Page("Amazon.fr : livres, DVD,").WebElement("xpath:=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input").Click
 print "recherche canapé"
-Browser("Amazon.fr : livres, DVD,").Close
-print "Fermeture des fenêtres"
+
